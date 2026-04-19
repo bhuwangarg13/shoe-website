@@ -1,18 +1,182 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Shoe Store</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StreetX Sneakers</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+/* HEADER */
+header {
+    background: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 30px;
+}
+
+.hero p {
+    color: gray;
+}
+
+/* BUTTON */
+.btn {
+    background: orange;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* PRODUCTS */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    color: green;
+    font-size: 18px;
+}
+
+/* TRUST */
+.trust {
+    background: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+
 </head>
 
-<body style="text-align:center; font-family:Arial;">
+<body>
 
-<h1>🔥 Best Shoes Under ₹1000</h1>
+<header>
+🔥 STREETX SNEAKERS SALE
+</header>
 
-<p>Comfortable | Stylish | Daily Wear</p>
+<section class="hero">
+    <h1>Premium Sneakers @ Budget Price</h1>
+    <p>Starting ₹999 | Limited Stock</p>
 
-<h2>COD Available 🚚</h2>
+    <a href="https://wa.me/09812465073" class="btn">
+        Order Now on WhatsApp
+    </a>
+</section>
 
-<p>Limited Stock Available ⚡</p>
+<section class="products">
+
+<div class="card">
+<img src="shoe1.jpg">
+<h3>Orange Runner</h3>
+<p class="price">₹1099</p>
+<a href="https://wa.me/09812465073" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="shoe2.jpg">
+<h3>White Boost Style</h3>
+<p class="price">₹1199</p>
+<a href="https://wa.me/09812465073" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="shoe3.jpg">
+<h3>Black Power Run</h3>
+<p class="price">₹999</p>
+<a href="https://wa.me/09812465073" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="shoe4.jpg">
+<h3>Magic Speed</h3>
+<p class="price">₹1099</p>
+<a href="https://wa.me/09812465073" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="shoe5.jpg">
+<h3>Classic Black</h3>
+<p class="price">₹999</p>
+<a href="https://wa.me/09812465073" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="shoe6.jpg">
+<h3>White Comfort</h3>
+<p class="price">₹1199</p>
+<a href="https://wa.me/09812465073" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="shoe7.jpg">
+<h3>Grey Sport</h3>
+<p class="price">₹1099</p>
+<a href="https://wa.me/09812465073" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="shoe8.jpg">
+<h3>Orange Elite</h3>
+<p class="price">₹1199</p>
+<a href="https://wa.me/09812465073" class="btn">Buy Now</a>
+</div>
+
+</section>
+
+<section class="trust">
+<h2>Why Customers Love Us</h2>
+<p>✔ Lightweight & Stylish</p>
+<p>✔ Perfect for Gym & Daily Wear</p>
+<p>✔ Cash on Delivery Available</p>
+<p>✔ Fast Delivery 3–5 Days</p>
+</section>
+
+<footer>
+© 2026 StreetX Sneakers
+</footer>
 
 </body>
 </html>
